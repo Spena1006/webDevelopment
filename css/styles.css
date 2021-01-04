@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(19, 59, 35);
+    color: rgb(184, 172, 4);
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+.container{
+width: 90%;  
+}
+
+#header-nav{
+background-color: rgb(175, 124, 13);
+border-radius: 0;
+border: 0;
+}
+
+#logo-img {
+    background: url('../img/logo.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 0px;
+}
+
+
+/*logo text*/
+.navbar-brand a{    
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;    
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+ }
+ .navbar-brand h1{
+     color: crimson;
+     font-size: 45px;
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+
+.navbar-brand p{
+     color: darkgreen;
+     font-size: 25px;
+     text-align: right;
+ }
+
+#taco-logo-img {
+    height: 40px;   
+    width: 40px;
+}
+
+#nav-list{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#nav-list a{
+    color: darkgreen;
+    text-align: center;
+}
+
+#nav-list a:hover{
+background-color:moccasin;
+}
+
+#nav-list #phone{
+    color:darkred;
+    text-shadow: 1px 1px 1px #222;
+}
